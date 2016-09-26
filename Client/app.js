@@ -43,7 +43,7 @@
 
    app.controller('ContentPanelController', function($scope,$rootScope) {
     
-    $rootScope.isShown = false;
+    // $rootScope.isShown = false;
     
   
 });
