@@ -14,11 +14,7 @@
 
     <div class="pageContainer">
         <!-- <div ng-include="'./templates/header.html'" id="header"></div> -->
-        <!-- HEADER -->
-        <div class="header">
-          <div class="symbol"></div>
-          <div class="logo"></div>
-        </div>
+        
           <!-- LEFT SIDEBAR -->
         <div class="leftPanel" ng-controller="SidebarController"> 
             <div class="controlButtons">
@@ -33,13 +29,16 @@
              <div class="quoteBy"></div>
           </div>
         </div>
-    </div>  
-     <!-- right Content Area -->
-    
-  
-       
 
+        <!-- HEADER -->
+        <div class="header">
+          <div class="symbol"></div>
+          <div class="logo"></div>
+        </div>
+      
+     <!-- right Content Area -->
        <div ui-view></div>
+       </div>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="app.js"></script>
