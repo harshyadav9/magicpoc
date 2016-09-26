@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+   
+   <head>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="apple-mobile-web-app-capable" content="yes">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+       <link rel="stylesheet" href="assets/style/custom.css" />
+
+   </head>
+   
+   <body>
+
+    <div class="pageContainer">
+        <!-- <div ng-include="'./templates/header.html'" id="header"></div> -->
+        <!-- HEADER -->
+        <div class="header">
+          <div class="symbol"></div>
+          <div class="logo"></div>
+        </div>
+          <!-- LEFT SIDEBAR -->
+        <div  class="leftPanel" ng-controller="SidebarController"> 
+            <div  ng-if="isShown" class="controlButtons">
+             <div class="homeButton"></div>
+             <div class="backButton"></div>
+             <div class="nextButton"></div>
+             <div class="glossaryButton"></div>
+             <div class="galleryButton"></div>
+             <div class="headingContainer">World Mountains</div>
+             <div class="contentContainerLeft">O beautiful for spacious skies,For amber waves of grain,
+             For purple mountain majesties Above the fruited plain!</div>
+             <div class="quoteBy"></div>
+          </div>
+        </div>
+    </div>  
+     <!-- right Content Area -->
+
+       
+
+       <div ui-view></div>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+      
+   </body>
+</html>

@@ -1,0 +1,172 @@
+.pageContainer{
+ height: 768px;
+ width: 1024px;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+ top: 0px;
+ margin: auto;
+}
+
+.leftPanel{
+ background-image: url("../images/photo1.png");
+ height: 100%;
+ width: 35%;
+ float: left;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.rightPanel{
+ background-color: #cccccc;
+ height: 100%;
+ float: left;
+ width: 65%;
+}
+
+.header{
+ background-color: #ffffff;
+ height: 10%;   
+}
+
+.symbol{
+ background-image: url("../images/Mountain_logo-01.png");
+ height: 100%;
+ background-size:  55% 90%;
+ background-repeat: no-repeat;
+ width: 80%;
+ float: left; 
+}
+
+.logo{
+ background-image: url("../images/logo.png");
+ height: 80%;
+ background-size: 55%;
+ background-repeat: no-repeat;
+ width: 20%;
+ float: right;   
+}
+.controlButtons{
+width: 100%;
+height: 40%;
+}
+
+.homeButton{
+background-image: url(../images/Home_Disabled.png);
+height: 50px;
+width: 46px;
+background-repeat: no-repeat;
+position: relative;
+top: 10px;
+margin-left: 2%;
+float: left;
+pointer-events: none;	
+}
+
+.backButton{
+background-image: url(../images/Back_Disabled.png);
+height: 50px;
+width: 46px;
+background-repeat: no-repeat;
+position: relative;
+top: 10px;
+float: left;
+margin-left: 5px;
+pointer-events: none;	
+}
+
+.nextButton{
+background-image: url(../images/Next_Disabled.png);
+height: 50px;
+width: 46px;
+background-repeat: no-repeat;
+position: relative;
+top: 10px;
+float: left;
+margin-left: 5px;
+pointer-events: none;	
+}
+
+.glossaryButton{
+background-image: url(../images/Glossary_Default.png);
+height: 50px;
+width: 46px;
+background-repeat: no-repeat;
+position: relative;
+top: 10px;
+margin-left: 27%;
+float: left;
+cursor: pointer;
+}
+
+.galleryButton{
+background-image: url(../images/Gallery_Default.png);
+height: 50px;
+width: 46px;
+background-repeat: no-repeat;
+position: relative;
+top: 10px;
+margin-left: 85%;
+cursor: pointer;	
+}
+
+.headingContainer{
+font-size: 42px;
+font-family: Lato;
+font-weight: 600;
+color: white;
+margin-top: 105px;
+margin-left: 40px;
+margin-right: 40px;
+text-align: center;
+}
+
+.contentContainerLeft{
+ width: 80%;
+ left: 0;
+ right: 0;
+ margin: auto;
+ height: 60%;  
+}
+.chapterFirst{
+background-image: url(../images/Chapter1-01.png);
+background-repeat: no-repeat;
+height: 163px;
+width: 110px;
+float: left;
+margin-right: 45px;
+margin-left: 45px;
+cursor: pointer;
+}
+.chapterSecond{
+background-image: url(../images/Chapter2-01-01.png);
+background-repeat: no-repeat;
+height: 163px;
+width: 110px;
+float: left;
+margin-right: 45px;
+cursor: pointer;
+}
+.chapterThird{
+background-image: url(../images/Chapter3-01-01.png);
+background-repeat: no-repeat;
+height: 163px;
+width: 110px;
+float: left;
+margin-right: 45px;
+cursor: pointer;
+}
+.chapterFourth{
+background-image: url(../images/Chapter4-01.png);
+background-repeat: no-repeat;
+height: 163px;
+width: 110px;
+float: left;
+cursor: pointer;
+}
+.content{
+width: 100%;
+height: 22%;
+top: 35px;
+position: relative;    
+}
